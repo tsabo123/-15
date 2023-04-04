@@ -7,8 +7,8 @@
     src: url(./fonts/GraphikBold.otf);
 }
 @font-face {
-    font-family:'GraphikMedium';
-    src: url(./fonts/GraphikMedium.otf);
+    font-family:'Graphikregular';
+    src: url(./fonts/GraphikRegular.otf);
 }
 body{
     background: 
@@ -34,7 +34,7 @@ body{
     display: flex;
     align-items: center;
     column-gap: 35px;
-    font-family:'GraphikMedium';
+    font-family:'Graphikregular';
     margin-top: 47px;
     margin-inline: auto;
     color: #FFFFFF;
@@ -50,7 +50,7 @@ body{
     cursor: pointer;
     background-color: #181818;
    
-    font-family:'GraphikMedium';
+    font-family:'Graphikregular';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -66,7 +66,7 @@ body{
  }
 .home {
     margin-inline: auto;
-    font-family: 'Graphik';
+    font-family:'Graphikregular';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -87,7 +87,7 @@ body{
     max-width: 709px;
     height: 176px;
     margin-top: 142px;
-    margin-inline: auto;
+    
     
 }
 .text {
@@ -99,7 +99,7 @@ body{
 }
 
 .text > h5 {
-    font-family: 'Graphik';
+    font-family:'Graphikregular';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -132,6 +132,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    
     padding: 10px 30px;
     cursor: pointer;
     margin-top: 95px;
@@ -144,12 +145,12 @@ body{
     flex-grow: 0;
 }
 .button1 > p {
-    font-family: 'Graphik';
+    font-family:'Graphikregular';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
-    line-height: 25px;
-   
+    line-height: 20px;
+    padding-left: 14px;
     text-align: center;
     letter-spacing: 0.2px;
  
@@ -187,32 +188,44 @@ body{
     flex-grow: 0;
 }
 .button2 > p {
-    font-family: 'Graphik';
+    font-family:'Graphikregular';
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
     letter-spacing: 0.2px;
-    
+    text-align: center;
+    padding-left: 14px;
    color: #FFFFFF;
    flex: none;
    order: 0;
     flex-grow: 0;
 }
 .photo1{
+    
     display: flex;
     margin-top: 130px;
     margin-left: 435px;
     
 }
 .photo2 {
+    
     position: absolute;
     margin-left: 670px;
     margin-top :-215px; 
 
 }
 .photo3 {
+   
     position: absolute;
     margin-left: 200px;
     margin-top :-200px;
+}
+.gradient {
+    
+    position: absolute;
+    width: 100%;
+   height: 150%;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
+    
 }
